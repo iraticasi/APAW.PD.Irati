@@ -23,28 +23,6 @@ public class Song {
         this.name = name;
     }
 
-    public Song(String id, String name, String singer){
-        this(id,name);
-        this.singer = singer;
-    }
-
-    public Song(String id, String name, int seconds){
-        this(id,name);
-        this.seconds = seconds;
-    }
-
-    public Song(String id, String name, LocalDateTime date){
-        this(id,name);
-        assert date != null;
-        this.date = date;
-    }
-
-    public Song(String id, String name, Genre genre){
-        this(id,name);
-        assert genre != null;
-        this.genre = genre;
-    }
-
     public String getId() {
         return id;
     }
