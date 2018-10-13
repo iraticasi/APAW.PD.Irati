@@ -1,4 +1,4 @@
-package music.models;
+package music.entities;
 
 import org.junit.jupiter.api.Test;
 

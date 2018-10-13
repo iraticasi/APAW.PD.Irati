@@ -1,4 +1,4 @@
-package music.models;
+package music.entities;
 
 public class User {
 

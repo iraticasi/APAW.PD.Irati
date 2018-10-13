@@ -1,4 +1,4 @@
-package music.models;
+package music.entities;
 
 import java.util.List;
 
